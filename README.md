@@ -23,10 +23,10 @@ Initially, we experimented with a single dimension LSTM model which uses the cur
 To predict the closing price for the following day using multiple inputs, we used a multi-dimensional LSTM model. We first trained the model on open prices, close prices and adjusted close prices. Subsequently, we trained the model on open prices, close prices, adjusted close prices, and Twitter sentiment scores from the Kaggle dataset. Lastly, we trained the model on open prices, close prices, adjusted close prices, and the daily relative popularity of ‘bitcoin’ searches on Google Trends.
 
 ## Accomplishments that we're proud of
-Machine learning using multi-dimensional LSTM model.
+Machine learning using multi-dimensional LSTM model. Cleaned up datasets for Twitter sentiment analysis and fed it into the multi-dimensional LSTM model in a very short time. The model originally was meant for single dimensional LSTM but we tweaked it for multi-dimensional.
 
 ## What we learned
-Machine learning using multi-dimensional LSTM model.
+Machine learning using multi-dimensional LSTM model. 
 
 ## What's next for BITweets
 In the future, we aim to explore other models to analyse the dataset and predict future prices. We hope to further fine-tune the model based on other feature inputs and parameters that are relevant to Bitcoin. Currently, our model uses one previous timestep to predict the next. In our extension, we hope to predict the next timestep using the past N steps, where N can be fine-tuned as well.
